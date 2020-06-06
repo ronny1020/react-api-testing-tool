@@ -14,7 +14,7 @@ function Home(props) {
         <InputForm />
         <hr />
         {data ? (
-          <JsonFormatter json={JSON.stringify(data)} tabWith="2" />
+          <JsonFormatter json={JSON.stringify(data)} tabWith="4" />
         ) : null}
       </div>
     </>

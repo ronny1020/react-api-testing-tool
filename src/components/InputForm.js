@@ -12,6 +12,7 @@ function InputForm(props) {
   }
 
   const formItems = [
+    { type: 'select', id: 'method', options: ['get', 'post', 'put', 'delete'] },
     { id: 'url' },
     {
       value: 'Submit',
